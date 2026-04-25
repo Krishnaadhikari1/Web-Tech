@@ -1,0 +1,36 @@
+<!-- Write a HTML script to create a table with three rows and three columns. The second row third column should 
+contain a text “TU” with link set to www.tu.edu.np  . The hieght of second row should be set to 200px. -->!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> table with link </title>
+    <style>
+        .second_row{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>row1,col1</td>
+            <td>row1,col2</td>
+            <td>row1,col3</td>
+        </tr>
+        <tr class="second_row">
+            <td>row2,col1</td>
+            <td>row2,col2</td>
+            <td><a href="https://tu.edu.np/" target="_blank">TU</a></td>
+        </tr>
+        <tr>
+            <td>row3,col1</td>
+            <td>row3,col2</td>
+            <td>row3,col3</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
