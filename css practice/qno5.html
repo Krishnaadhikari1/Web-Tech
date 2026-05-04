@@ -1,2 +1,46 @@
 <!-- How can you define position property for specifying specific positioning of an HTML element? 
 Write internal CSS to illustrate position of an HTML div. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> positioning example </title>
+    <style>
+        .positioned-div {
+                width: 200px;
+                height: 100px;
+                background-color: lightblue;
+                border: 1px solid blue;
+                }
+        .static {
+             position: static;
+            }
+
+        .relative {
+            position: relative;
+            left: 30px;
+            top: 20px;
+            }
+
+        .absolute {
+           position: absolute;
+            right: 50px;
+            bottom: 30px;
+            }
+
+        .fixed {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="positioned-div static"> this is example of static</div>
+    <div class="positioned-div absolute"> this is example of absolute </div>
+    <div class="positioned-div fixed"> this is example of  the fixed </div>
+    <div class="positioned-div relative">this is example of relative </div>
+</body>
+</html>
