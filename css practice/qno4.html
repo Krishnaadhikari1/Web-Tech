@@ -1,1 +1,35 @@
 <!-- What is text-overflow property in CSS ? How can you use clip and ellipseis in text-overflow ? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> text overflow example </title>
+    <style>
+        .clip{
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+        .ellipseis{
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="clip"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum expedita voluptatum officia sapiente quidem,
+         eaque odio quaerat quae,rerum perferendis libero obcaecati nobis. Repudiandae porro sequi libero doloribus 
+         dolore id?
+    </div>
+     
+    <div class="ellipseis"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eos voluptate minus ratione suscipit beatae nostrum, optio
+         vitae voluptates at exercitationem nesciunt libero laborum. Reprehenderit rem quos in nostrum tempore.
+        
+    </div>
+</body>
+</html>
+
