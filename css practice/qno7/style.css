@@ -1,0 +1,16 @@
+div{
+  position: fixed;
+  border-style: solid;
+  border-width: 2px;
+  padding: 1opx;
+}
+#p1{
+ position: relative;
+ font-family: arial;
+ color: red;
+}
+#p2{
+ position: absolute;
+ top: 0px;
+ left: 200px;
+}
