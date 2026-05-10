@@ -1,0 +1,23 @@
+<!-- confirm box : used to take conformation (yes/no) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> confirm box </title>
+</head>
+<body>
+    <button onclick="cheakconfirm()"> delete </button>
+    <script>
+        function cheakconfirm(){
+            let result = confirm(" are you sure to delete ?");
+            if(result){
+                alert("deleted sucessfully ")
+            }
+            else{
+                alert("cancelled")
+            }
+        }
+    </script>
+</body>
+</html>
